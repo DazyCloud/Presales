@@ -1,1 +1,814 @@
+# 🛡️ Perimeter Security Design & Solution Repository
 
+> Master repository for designing perimeter intrusion detection systems (PIDS), long-range surveillance, critical infrastructure protection, border security, and integrated multi-sensor security architectures.
+
+---
+
+# 1. Perimeter Types
+
+## Open Perimeter
+
+- Open Land
+- Desert
+- Grassland
+- Coastal Area
+- Open Industrial Area
+- Solar Farm
+
+---
+
+## Fence Perimeter
+
+- Chain Link Fence
+- Welded Mesh Fence
+- Razor Wire Fence
+- Electric Fence
+- Concrete Wall
+- Hybrid Fence
+
+---
+
+## Critical Infrastructure
+
+- Airport
+- Data Center
+- Power Plant
+- Nuclear Plant
+- Oil & Gas
+- Water Treatment Plant
+- Telecom Facility
+
+---
+
+## Transportation
+
+- Airport Perimeter
+- Railway Depot
+- Metro Depot
+- Port
+- Highway Infrastructure
+
+---
+
+## Government
+
+- Military Base
+- Border Security
+- Police Facility
+- Prison
+- Ammunition Depot
+
+---
+
+## Commercial
+
+- Campus
+- Factory
+- Warehouse
+- Logistics Park
+- Shopping Mall
+- Corporate Office
+
+---
+
+# 2. Infrastructure Design
+
+## 2.1 Camera Design
+
+### Fence Line
+
+- Camera Type
+    - Thermal Camera
+    - Long Range Bullet
+    - PTZ
+
+- Mounting Height
+    - 5–8 m
+
+- Analytics
+
+    - Intrusion Detection
+    - Fence Climbing
+    - Loitering
+    - Auto Tracking
+
+---
+
+### Open Area
+
+- Camera Type
+
+    - Thermal
+    - PTZ
+
+- Analytics
+
+    - Human Detection
+    - Vehicle Detection
+    - Animal Detection
+
+---
+
+### Gate
+
+- Camera Type
+
+    - ANPR
+    - Dome
+    - PTZ
+
+Analytics
+
+- Vehicle Verification
+- Face Recognition
+- Tailgating
+
+---
+
+### Watch Tower
+
+- Camera Type
+
+- Long Range PTZ
+- Thermal
+
+Analytics
+
+- Long Range Detection
+- Auto Tracking
+
+---
+
+## 2.2 Storage
+
+- Continuous Recording
+- Event Recording
+- AI Metadata
+
+RAID
+
+- RAID 5
+- RAID 6
+- RAID 10
+
+---
+
+## 2.3 Server
+
+- Recording Server
+- AI Analytics Server
+- PSIM Server
+- GIS Server
+- Failover Server
+
+---
+
+## 2.4 Network
+
+- Fiber Backbone
+- Ring Topology
+- Layer-3 Core
+- PoE+
+- Redundant Links
+
+---
+
+# 3. Detection Technologies
+
+## AI Cameras
+
+### Best For
+
+- Small Sites
+- Campus
+- Factory
+- Warehouse
+
+### Detects
+
+- Human
+- Vehicle
+- Animal
+- Intrusion
+- Loitering
+
+### Advantages
+
+- Lowest Cost
+- Easy Installation
+
+### Limitations
+
+- Weather Dependent
+- Limited Range
+
+### Best Companies
+
+- Axis
+- Hanwha
+- Bosch
+- Hikvision
+- Dahua
+
+---
+
+## Thermal Cameras
+
+### Best For
+
+- Airport
+- Border
+- Oil & Gas
+- Port
+- Military
+
+### Detects
+
+- Human
+- Vehicle
+- Boat
+
+### Advantages
+
+- Complete Darkness
+- Fog
+- Smoke
+- Long Range
+
+### Limitations
+
+- Cannot Read Faces
+- Higher Cost
+
+### Companies
+
+- FLIR
+- Axis
+- Bosch
+
+---
+
+## PTZ Cameras
+
+### Best For
+
+- Auto Tracking
+- Large Area
+
+### Detects
+
+- Human
+- Vehicle
+
+### Integrates With
+
+- Radar
+- LiDAR
+- Thermal
+- AI
+
+---
+
+## Radar
+
+### Best For
+
+- Long Range
+- Airport
+- Border
+- Coast
+- Open Area
+
+### Detects
+
+- Human
+- Vehicle
+- Boat
+- Drone
+
+### Advantages
+
+- 24×7
+- Works in Rain
+- Fog
+- Dust
+
+### Limitations
+
+- Cannot Identify Person
+
+### Companies
+
+- Navtech
+- HENSOLDT
+- Magos
+- SpotterRF
+
+---
+
+## LiDAR
+
+### Best For
+
+- High Accuracy
+- Data Centers
+- Airports
+- Factory
+
+### Detects
+
+- Human
+- Vehicle
+- Height
+- Speed
+- Direction
+
+### Advantages
+
+- Extremely Low False Alarm
+- 3D Detection
+
+### Limitations
+
+- Higher Cost
+
+### Companies
+
+- Ouster
+- Hesai
+- SICK
+- Cepton
+
+---
+
+## Fiber Fence
+
+### Best For
+
+- Fence Protection
+
+### Detects
+
+- Cutting
+- Climbing
+- Lifting
+
+### Advantages
+
+- Fence Based Detection
+
+### Limitations
+
+- Fence Only
+
+---
+
+## Microwave Barrier
+
+### Best For
+
+- Open Areas
+- Data Centers
+
+---
+
+## Active Infrared Beam
+
+### Best For
+
+- Small Perimeters
+
+---
+
+## Buried Fiber
+
+### Best For
+
+- High Security
+
+---
+
+## Seismic Sensors
+
+### Best For
+
+- Border
+- Military
+
+---
+
+## Acoustic Sensors
+
+### Best For
+
+- Pipeline
+- Border
+
+---
+
+## Drone Detection
+
+### Detects
+
+- UAV
+- Drone Pilot
+- Flight Path
+
+---
+
+## Counter UAS
+
+### Functions
+
+- RF Detection
+- Jamming
+- Takeover
+- GNSS Spoofing
+- EO/IR Tracking
+
+---
+
+# 4. Solution Architectures
+
+## Level 1 (Budget)
+
+AI Camera
++
+PTZ
+
+Best For
+
+- Factory
+- Warehouse
+- Campus
+
+---
+
+## Level 2
+
+Thermal
++
+PTZ
+
+Best For
+
+- Solar Farm
+- Large Campus
+- Oil Depot
+
+---
+
+## Level 3
+
+Radar
++
+PTZ
+
+Best For
+
+- Airport
+- Port
+- Border
+
+---
+
+## Level 4
+
+Radar
++
+Thermal
++
+PTZ
+
+Best For
+
+- Power Plant
+- Oil & Gas
+- Airport
+
+---
+
+## Level 5
+
+LiDAR
++
+PTZ
+
+Best For
+
+- Data Center
+- High Accuracy
+- Smart Perimeter
+
+---
+
+## Level 6
+
+LiDAR
++
+Radar
++
+PTZ
+
+Best For
+
+- Airport
+- Military
+- Large Open Area
+
+---
+
+## Level 7
+
+Fiber Fence
++
+Thermal
++
+PTZ
+
+Best For
+
+- Prison
+- Data Center
+- Refinery
+
+---
+
+## Level 8
+
+Fiber Fence
++
+Radar
++
+Thermal
++
+PTZ
+
+Best For
+
+- Nuclear
+- Military
+- Critical Infrastructure
+
+---
+
+## Level 9
+
+Radar
++
+LiDAR
++
+Thermal
++
+PTZ
+
+Best For
+
+- Airports
+- Military
+- Border
+
+---
+
+## Level 10
+
+Radar
++
+LiDAR
++
+Thermal
++
+EO Camera
++
+Drone Detection
++
+Counter-UAS
++
+PSIM
+
+Best For
+
+- National Border
+- Military Base
+- Air Force Station
+- Naval Base
+
+---
+
+# 5. AI Analytics
+
+## Human Analytics
+
+- Intrusion
+- Loitering
+- Crawling
+- Fence Climbing
+- Running
+- Crowd Detection
+
+---
+
+## Vehicle Analytics
+
+- Vehicle Detection
+- Vehicle Classification
+- Speed Detection
+- ANPR
+- Wrong Way
+
+---
+
+## Animal Analytics
+
+- Animal Detection
+- Bird Detection
+- Wildlife Classification
+
+---
+
+## Drone Analytics
+
+- Drone Detection
+- Drone Classification
+- Drone Tracking
+
+---
+
+## Marine Analytics
+
+- Boat Detection
+- Ship Detection
+- Diver Detection
+
+---
+
+# 6. Common Integrations
+
+## Security
+
+- VMS
+- PSIM
+- Access Control
+- ANPR
+- Face Recognition
+
+---
+
+## Industrial
+
+- SCADA
+- PLC
+- BMS
+
+---
+
+## Communication
+
+- IP Speakers
+- Sirens
+- SMS
+- Email
+- Radio
+
+---
+
+## GIS
+
+- GIS Mapping
+- Digital Twin
+
+---
+
+## Sensors
+
+- Radar
+- LiDAR
+- Thermal
+- Fiber Fence
+- Microwave Barrier
+- PIR
+- Seismic
+- Acoustic
+- Weather Station
+
+---
+
+# 7. Decision Matrix
+
+| Requirement | Recommended Solution |
+|-------------|----------------------|
+| Lowest Budget | AI Camera + PTZ |
+| Medium Budget | Thermal + PTZ |
+| Long Range | Radar + PTZ |
+| Very Low False Alarm | LiDAR + PTZ |
+| Night Surveillance | Thermal + PTZ |
+| Heavy Fog | Radar |
+| Wildlife Area | Thermal + AI |
+| Coastal Area | Marine Radar + Thermal |
+| Solar Farm | Thermal + PTZ |
+| Data Center | Fiber Fence + LiDAR + PTZ |
+| Oil & Gas | Thermal + Radar + PTZ |
+| Power Plant | Radar + Thermal + PTZ |
+| Airport | Radar + Thermal + PTZ |
+| Military | Radar + LiDAR + Thermal + PTZ + Counter-UAS |
+| National Border | Multi-layer Sensor Fusion |
+
+---
+
+# 8. Industry-Specific Recommended Architectures
+
+## Airport
+
+- Radar + PTZ + Thermal
+- Radar + PTZ + Thermal + Drone Detection
+- LiDAR + Radar + PTZ (high-value restricted zones)
+
+---
+
+## Military Base
+
+- Radar + LiDAR + Thermal + PTZ + Counter-UAS
+- Fiber Fence + Radar + Thermal + PSIM
+- Seismic Sensors + Thermal + PTZ (covert approach detection)
+
+---
+
+## Border Security
+
+- Ground Surveillance Radar + EO/IR + Thermal
+- Radar + LiDAR + Counter-UAS
+- Seismic + Acoustic + Thermal + PTZ
+- Aerostat/UAV + Radar + PSIM (very long-range sectors)
+
+---
+
+## Data Center
+
+- Fiber Fence + LiDAR + PTZ
+- Thermal + Access Control + VMS
+- Radar + PTZ (large campuses)
+
+---
+
+## Oil & Gas / Refinery
+
+- Thermal + Radar + PTZ
+- Gas Detection + Thermal + SCADA
+- Fiber Fence + Radar + Thermal
+
+---
+
+## Port / Coastal Facility
+
+- Marine Radar + Thermal + PTZ
+- AIS + Radar + VMS
+- Waterside Sonar (where required) + Thermal + PTZ
+
+---
+
+## Power Plant / Nuclear
+
+- Fiber Fence + Radar + Thermal + PTZ
+- LiDAR + Thermal (critical inner zones)
+- PSIM + GIS + Multi-sensor Fusion
+
+---
+
+## Solar Farm
+
+- Thermal + PTZ
+- Thermal + Radar (large sites)
+- AI Cameras + Thermal (budget deployments)
+
+---
+
+# 9. Reference Notes
+
+## Design Best Practices
+
+(To be added)
+
+## Detection Range Comparison
+
+(To be added)
+
+## False Alarm Reduction Methods
+
+(To be added)
+
+## Sensor Placement Guidelines
+
+(To be added)
+
+## Useful RFP Clauses
+
+(To be added)
+
+## Calculation References
+
+- Camera Coverage Calculator
+- Radar Coverage Calculator
+- LiDAR Coverage Calculator
+- Fiber Fence Zone Calculator
+- Server & Storage Sizing
+- Network Bandwidth Calculator
