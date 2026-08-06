@@ -4,7 +4,7 @@ One file per solution vertical — each covers the possible solution components 
 
 ## Verticals
 - [Bank — Branch](./bank-branch.md)
-- [Bank — ATM](./atm.md)
+- [Retail](./Retail)
 - [Malls](./malls.md)
 - [Ports](./ports.md)
 - [Data Centres](./data-centres.md)
@@ -13,6 +13,7 @@ One file per solution vertical — each covers the possible solution components 
 - [Metro](./metro.md)
 - [Airport](./airport.md)
 - [Factory](./factory.md)
+- [Perimeter](./Perimeter(Army and non-army))
 
 Add more vertical files here as needed, following the same format:
 - Components used
